@@ -1,28 +1,27 @@
 html {
-   /* Needed to fix footer at bottom of browser */
-   position: relative;
-   min-height: 100%;
+    /* Needed to fix footer at bottom of browser */
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-   /* Move down content because of fixed navbar at top */
-   padding-top: 50px;
-   /* Set margin bottom allow for footer height */
-   margin-bottom: 50px;
-    	
+    /* Move down content because of fixed navbar at top */
+    padding-top: 50px;
+    /* Set margin bottom allow for footer height */
+    margin-bottom: 50px;
     background-color: #A2C0A7;
     background-image: url(images/tartan.png);
 }
 
 footer {
-   position: fixed;
-   bottom: 0;
-   height: 50px;
-   width: 100%;
-   background-color: #5E2241;
-   color: #CEAEBF;
-   text-align: center;
-   padding: 15px;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #5E2241;
+    color: #CEAEBF;
+    text-align: center;
+    padding: 15px;
 }
 
 main {
@@ -31,24 +30,19 @@ main {
     border-radius: 0 0 6px 6px;
 }
 
-	
 main .row {
     margin-bottom: 15px;
 }
 
-	
 .navbar-inverse {
     background-color: #5E2241;
     border-color: #5E2241;
 }
 
-	
 .navbar-inverse .navbar-brand {
     color: #CEAEBF;
 }
 
-
-	
 .navbar-inverse .btn {
     background-color: #CEAEBF;
     color: #5E2241;
@@ -56,7 +50,7 @@ main .row {
 
 
 /* Edit the Jumbotron */
-	
+
 .jumbotron {
     margin-top: 15px;
     padding-bottom: 25px;
@@ -68,11 +62,11 @@ main .row {
     background-clip: border-box;
     background-size: cover;
 }
- 
+
 .jumbotron small {
     color: #1F5829;
 }
- 
+
 .jumbotron p {
     font-size: 1.3em;
     font-weight: bold;
